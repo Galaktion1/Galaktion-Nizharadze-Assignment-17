@@ -13,6 +13,7 @@
 		9AFE9B3D2885F25800768979 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AFE9B3B2885F25800768979 /* Main.storyboard */; };
 		9AFE9B3F2885F25A00768979 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AFE9B3E2885F25A00768979 /* Assets.xcassets */; };
 		9AFE9B422885F25A00768979 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AFE9B402885F25A00768979 /* LaunchScreen.storyboard */; };
+		9AFE9B4B2885FA2A00768979 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFE9B4A2885FA2A00768979 /* SecondVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9AFE9B3E2885F25A00768979 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AFE9B412885F25A00768979 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AFE9B432885F25A00768979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AFE9B4A2885FA2A00768979 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,24 @@
 		9AFE9B342885F25800768979 /* Galaktion Nizharadze, Assignment #17 */ = {
 			isa = PBXGroup;
 			children = (
-				9AFE9B352885F25800768979 /* AppDelegate.swift */,
-				9AFE9B372885F25800768979 /* SceneDelegate.swift */,
+				9AFE9B492885F2FF00768979 /* SupportinFiles */,
 				9AFE9B392885F25800768979 /* ViewController.swift */,
+				9AFE9B4A2885FA2A00768979 /* SecondVC.swift */,
 				9AFE9B3B2885F25800768979 /* Main.storyboard */,
-				9AFE9B3E2885F25A00768979 /* Assets.xcassets */,
-				9AFE9B402885F25A00768979 /* LaunchScreen.storyboard */,
 				9AFE9B432885F25A00768979 /* Info.plist */,
 			);
 			path = "Galaktion Nizharadze, Assignment #17";
+			sourceTree = "<group>";
+		};
+		9AFE9B492885F2FF00768979 /* SupportinFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9AFE9B352885F25800768979 /* AppDelegate.swift */,
+				9AFE9B372885F25800768979 /* SceneDelegate.swift */,
+				9AFE9B3E2885F25A00768979 /* Assets.xcassets */,
+				9AFE9B402885F25A00768979 /* LaunchScreen.storyboard */,
+			);
+			path = SupportinFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				9AFE9B3A2885F25800768979 /* ViewController.swift in Sources */,
 				9AFE9B362885F25800768979 /* AppDelegate.swift in Sources */,
+				9AFE9B4B2885FA2A00768979 /* SecondVC.swift in Sources */,
 				9AFE9B382885F25800768979 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
